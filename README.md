@@ -7,6 +7,8 @@ README
 1. To add all the changes you've made and all the files from the project, type the command
 "git add -A" or for a single specific file "git add [filename]"
 
+Testing merge conflict.
+
 2. To commit the changes and files you've added, type the command "git commit 'Description of your commit goes here'"
 
 Aside: Shortcut command to add and commit in one command. Type "git commit -am 'Description of your commit goes here'".
