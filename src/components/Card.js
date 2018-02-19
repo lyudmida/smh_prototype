@@ -1,10 +1,29 @@
 import React from 'react';
 import { View } from 'react-native';
 
-const Card = () => {
+const Card = (props) => {
   return (
-    <View></View>
+    <View style={styles.cardStyle}>
+      {props.children}
+    </View>
   );
+};
+
+const styles = {
+  cardStyle: {
+    borderWidth: 1,         //above
+    borderRadius: 2,        //roundness
+    borderColor: '#dcd',    //color
+    borderBottomWidth: 0,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 1,
+    marginLeft: 5,
+    marginRight: 5,
+    marginTop: 10
+  }
 };
 
 export default Card;
