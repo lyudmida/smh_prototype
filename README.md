@@ -12,7 +12,21 @@ Aside: Shortcut command to add and commit in one command. Type "git commit -am '
 3. Finally, to push your changes to a branch, type "git push origin [branchname]"
 
 ## Notes
-Always check which branch you are on before you start working in the beginning or pushing from. To check which branch you are on,
+Always check which branch you are on before you start working in the beginning or whenever you are pushing changes. To check which branch you are on,
 type "git branch".
 
 More git command - cheatsheet: https://gist.github.com/hofmannsven/6814451
+
+# Merging a branch
+1. When you are done working on a feature branch and ready to merge it, cd inside the main branch your are going to merge the feature branch into.
+
+2. Once inside the main branch, merge the feature branch by typing the command "git merge [feature branch name]".
+
+3. add, commit, and push changes on the main branch to update to the github repository.
+
+# Reset a branch to match an exact copy of another branch
+Do not use git pull. That is used for merging. Instead use these commands step-by-step.
+
+1. git fetch origin [branchname copying from]
+2. git reset --hard FETCH_HEAD
+3. git clean -df
