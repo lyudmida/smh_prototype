@@ -22,7 +22,7 @@ More git command - cheatsheet: https://gist.github.com/hofmannsven/6814451
 
 2. Once inside the main branch, merge the feature branch by typing the command "git merge [feature branch name]".
 
-3. add, commit, and push changes on the main branch to update to the github repository.
+3. Push changes on the main branch to update to the github repository.
 
 # Reset a branch to match an exact copy of another branch
 Do not use git pull. That is used for merging. Instead use these commands step-by-step.
@@ -30,3 +30,6 @@ Do not use git pull. That is used for merging. Instead use these commands step-b
 1. git fetch origin [branchname copying from]
 2. git reset --hard FETCH_HEAD
 3. git clean -df
+
+# Can I put anything here?
+## Taco Mustache
