@@ -1,7 +1,5 @@
-README
-
 # Launching the ios app version on the simulator
-1. cd into the project folder and type the command "react-native run-ios". Testing merge conflict.
+1. cd into the project folder and type the command "react-native run-ios".
 
 # Common Git commands for pushing your changes
 1. To add all the changes you've made and all the files from the project, type the command
