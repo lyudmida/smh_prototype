@@ -6,7 +6,7 @@ import MusicList from './src/components/MusicList';
 
 // Create a component
 const App = () => (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText={'TayTay is BaeBae'} />
     <MusicList />
   </View>
