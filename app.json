@@ -4,7 +4,7 @@
 		"description": "React Native Audio Player",
 		"slug": "react-native-audio-player",
 		"privacy": "public",
-		"sdkVersion": "UNVERSIONED",
+		"sdkVersion": "21.0.0",
 		"version": "1.0.0",
 		"orientation": "portrait",
 		"primaryColor": "#CCCCCC",
