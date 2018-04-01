@@ -1,10 +1,10 @@
 import React from 'react';
-import { AppRegistry } from 'raect-native';
+import { AppRegistry } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
 import Front from './Front';
 import MusicScreen from './MusicScreen';
-import HealthScreen from '/HealthScreen';
+import HealthScreen from './HealthScreen';
 
 const Navigation = StackNavigator(
   {

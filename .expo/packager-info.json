@@ -1,8 +1,8 @@
 {
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 15581,
+  "expoServerNgrokUrl": "https://gt-ntm.lyudmida.react-native-audio-player.exp.direct",
+  "packagerNgrokUrl": "https://packager.gt-ntm.lyudmida.react-native-audio-player.exp.direct",
+  "ngrokPid": 15599
 }

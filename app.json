@@ -8,9 +8,9 @@
 		"version": "1.0.0",
 		"orientation": "portrait",
 		"primaryColor": "#CCCCCC",
-		"icon": "./assets/images/icon.png",
+		"icon": "./src/assets/images/icon.png",
 		"loading": {
-			"icon": "./assets/images/icon.png",
+			"icon": "./src/assets/images/icon.png",
 			"hideExponentText": false
 		},
 		"packagerOpts": {
