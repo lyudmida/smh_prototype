@@ -8,9 +8,9 @@
 		"version": "1.0.0",
 		"orientation": "portrait",
 		"primaryColor": "#CCCCCC",
-		"icon": "./src/assets/images/icon.png",
+		"icon": "./src/icons/heartnote.png",
 		"loading": {
-			"icon": "./src/assets/images/icon.png",
+			"icon": "./src/icons/heartnote.png",
 			"hideExponentText": false
 		},
 		"packagerOpts": {

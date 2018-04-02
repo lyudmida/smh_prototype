@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, ListView, Text, TouchableOpacity, View } from 'react-native';
+import { Image, ScrollView, Text, TouchableOpacity, View } from 'react-native';
 import { Card, Header } from 'react-native-elements';
 
 class Front extends Component {
@@ -12,11 +12,12 @@ class Front extends Component {
     return (
       <View style={{ flex: 1 }}>
         <Header
-          outerContainerStyles={{backgroundColor: '#ada3c8'}}
+          outerContainerStyles={{backgroundColor: '#AEA5CD'}}
           centerComponent={
             { text: 'SMH', style:{ fontSize: 35, fontWeight: 'bold' } }
           }
         />
+        <ScrollView>
         <TouchableOpacity onPress={() => this.props.navigation.navigate('HealthScreen')}>
           <Card style={styles.cardStyle}>
             <View>
@@ -24,9 +25,7 @@ class Front extends Component {
                 style={styles.imageStyle}
                 source={require('./icons/heartFront.png')}
               >
-                <View style={styles.contentStyle}>
-                  <Text style={styles.textStyle}>Health</Text>
-                </View>
+              <Text style={styles.textStyle}>Health</Text>
               </Image>
             </View>
           </Card>
@@ -46,6 +45,7 @@ class Front extends Component {
             </View>
           </Card>
         </TouchableOpacity>
+        </ScrollView>
       </View>
     )
   }
@@ -53,7 +53,6 @@ class Front extends Component {
 
 const styles = {
   cardStyle: {
-    backgroundColor: '#000',
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
