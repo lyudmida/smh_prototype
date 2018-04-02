@@ -57,11 +57,11 @@ class MusicScreen extends Component {
 		this.index = 0;
 		this.isSeeking = false;
 		this.shouldPlayAtEndOfSeek = false;
-//		this.playbackInstance = null;
+		this.playbackInstance = null;
 		this.state = {
 			playbackInstanceName: LOADING_STRING,
-//			playbackInstancePosition: null,
-//			playbackInstanceDuration: null,
+			playbackInstancePosition: null,
+			playbackInstanceDuration: null,
 			shouldPlay: false,
 			isPlaying: false,
 			isBuffering: false,
