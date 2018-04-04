@@ -194,14 +194,14 @@ export default class HealthScreen extends Component {
         />
         <ScrollView>
           <Card>
-            <View style={{ flexDirection: 'row' }}>
+            <View style={styles.container}>
               <Image
                 style={{width: 60, height: 60}}
                 source={require('./icons/heartrate.png')}
               />
-              <Text style={{fontSize: 20, lineHeight: 55}}>Heartrate: </Text>
+              <Text style={{fontSize: 20, justifyContent: 'center', alignItems: 'center'}}>Heartrate: </Text>
               <Text style={
-                {fontSize: 25, fontWeight: 'bold', lineHeight: 55, color: 'red'}}>
+                {fontSize: 25, fontWeight: 'bold', justifyContent: 'center', color: 'red'}}>
                 100 BPM
               </Text>
             </View>
@@ -209,12 +209,12 @@ export default class HealthScreen extends Component {
           </Card>
 
           <Card>
-            <View style={{ flexDirection: 'row' }}>
+            <View style={styles.container}>
               <Image
                 style={{width: 70, height: 70}}
                 source={require('./icons/sp02.png')}
               />
-              <Text style={{fontSize: 20, lineHeight: 65}}>Sp02 Level: </Text>
+              <Text style={{fontSize: 20, justifyContent: 'center', alignItems: 'center'}}>Sp02 Level: </Text>
               <Text style={
                 {fontSize: 25, fontWeight: 'bold', lineHeight: 65, color: 'red'}}>
                 99%
@@ -224,5 +224,14 @@ export default class HealthScreen extends Component {
         </ScrollView>
       </View>
     )
+  }
+}
+
+const styles = {
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row'
   }
 }

@@ -61,9 +61,12 @@ const styles = {
   },
 
   imageStyle: {
+    flex: 1,
     height: 250,
     width: 250,
-    alignSelf: 'center'
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
 
   textStyle: {
@@ -71,7 +74,8 @@ const styles = {
     color: 'black',
     fontSize: 35,
     textAlign: 'center',
-    lineHeight: 250
+    alignItems: 'center'
+    // lineHeight: 250
   },
 
   contentStyle: {
