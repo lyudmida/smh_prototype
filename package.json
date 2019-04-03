@@ -1,0 +1,17 @@
+{
+	"name": "react-native-audio-player",
+	"version": "1.0.0",
+	"description": "React Native Audio Player",
+	"author": "NP",
+	"main": "node_modules/expo/AppEntry.js",
+	"dependencies": {
+		"@expo/vector-icons": "^6.3.1",
+		"expo": "^21.0.2",
+		"react": "16.0.0-alpha.12",
+		"react-native": "https://github.com/expo/react-native/archive/sdk-21.0.2.tar.gz",
+		"react-native-elements": "^0.19.0",
+		"react-native-pathjs-charts": "0.0.34",
+		"react-native-slider": "^0.11.0",
+		"react-navigation": "^1.5.9"
+	}
+}
